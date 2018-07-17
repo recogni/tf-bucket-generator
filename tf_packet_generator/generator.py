@@ -1,7 +1,7 @@
 """
 Tensor generator that yields images and labels for the image.
 
-Accepts HTTP POSTs which will enqueue data to the process queue.
+Reads files from Google Storage buckets or local filesystem.
 """
 import time
 from tensorflow.python.lib.io import file_io
